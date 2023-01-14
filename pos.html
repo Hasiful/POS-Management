@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> BongIt Pos System </title>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body>
+    <!-- 
+    ================================
+        main admin sidebar
+    ================================
+    -->
+    <div class="root">
+
+        <!-- header section -->
+        <header class="header_section header_section_pos">
+            <!-- wrapper -->
+            <div class="header_section_wrapper">
+                <!-- title -->
+                <div class="header_title"><span>Welcome to </span><b>Bongo POS</b></div>
+
+                <!-- header right -->
+                <div class="header_left">
+                    <!-- left inner -->
+                    <div class="header_left_inner">
+                        <!-- header dash -->
+                        <div class="header_dash">
+                            <a href="./index.html">
+                                <img src="assets/image/dashimage.png" alt="">
+                            </a>
+                        </div>
+
+                        <!-- pos link -->
+                        <div class="header_posLink">
+                            <a href="./pos.html">POS</a>
+                        </div>
+
+                        <!-- notification -->
+                        <div class="header_notification header_leftRe">
+                            <!-- icon -->
+                            <div class="notification_icon" id="notification_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20.648" height="24"
+                                    viewBox="0 0 20.648 24">
+                                    <g id="Iconly_Light-Outline_Notification"
+                                        data-name="Iconly/Light-Outline/Notification" transform="translate(-3 -1)">
+                                        <g id="Notification" transform="translate(3 1)">
+                                            <path id="Combined-Shape"
+                                                d="M8.176,21.328a2.816,2.816,0,0,0,2.091,1h0a2.826,2.826,0,0,0,2.1-1,.837.837,0,0,1,1.245,1.121A4.483,4.483,0,0,1,10.268,24h0a4.469,4.469,0,0,1-3.334-1.554.837.837,0,0,1,1.245-1.119ZM10.322,0c4.962,0,8.3,3.865,8.3,7.473a5.711,5.711,0,0,0,.973,3.478,6.061,6.061,0,0,1,1.057,3.527c-.39,4.518-5.106,4.886-10.326,4.886S.385,19,0,14.551a6.113,6.113,0,0,1,1.054-3.6l.175-.295a5.6,5.6,0,0,0,.8-3.184C2.027,3.865,5.36,0,10.322,0Zm0,1.674c-3.9,0-6.621,3.056-6.621,5.8a7.278,7.278,0,0,1-1.213,4.34,4.413,4.413,0,0,0-.817,2.666c.186,2.105,1.576,3.212,8.651,3.212,7.036,0,8.469-1.155,8.655-3.284a4.369,4.369,0,0,0-.82-2.593,7.278,7.278,0,0,1-1.213-4.34C16.943,4.731,14.224,1.674,10.322,1.674Z"
+                                                transform="translate(0)" fill="#323233" fill-rule="evenodd" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <!-- header notification box -->
+                            <div class="notification_box" id="notification_box">
+
+                                <div class="notification_header">
+                                    <p>Notification</p>
+                                </div>
+
+                                <div class="notification_content">
+                                    <!-- item -->
+                                    <div class="notification_item">
+                                        <div class="notification_id">
+                                            Order code: 20220912-10085522 has
+                                            been Delivered
+                                        </div>
+                                        <p class="notification_date">September 12 2022, 12:09 am</p>
+                                    </div>
+
+                                    <!-- item -->
+                                    <div class="notification_item">
+                                        <div class="notification_id">
+                                            Order code: 20220912-10085522 has
+                                            been Delivered
+                                        </div>
+                                        <p class="notification_date">September 12 2022, 12:09 am</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- end -->
+
+                        </div>
+
+                        <!-- search bar -->
+                        <div class="header_searchbar header_leftRe">
+                            <!-- input -->
+                            <input type="text" class="search_input input_control" placeholder="Search Here" />
+                            <!-- icon -->
+                            <span class="search_input_icon"><svg xmlns="http://www.w3.org/2000/svg" width="16.625"
+                                    height="17" viewBox="0 0 16.625 17">
+                                    <g id="Iconly_Light-Outline_Search" data-name="Iconly/Light-Outline/Search"
+                                        transform="translate(-2 -2)">
+                                        <g id="Search" transform="translate(2 2)">
+                                            <path id="Combined-Shape"
+                                                d="M7.99,0a7.986,7.986,0,0,1,5.886,13.386l2.568,2.563a.615.615,0,0,1-.87.871l-2.6-2.592A7.988,7.988,0,1,1,7.99,0Zm0,1.231a6.759,6.759,0,1,0,6.758,6.758A6.766,6.766,0,0,0,7.99,1.231Z"
+                                                transform="translate(0 0)" fill="#FFF" fill-rule="evenodd" />
+                                        </g>
+                                    </g>
+                                </svg>
+                            </span>
+                        </div>
+
+                        <!-- header profile -->
+                        <div class="header_profile header_leftRe">
+                            <!-- image -->
+                            <div class="hader_profile_image">
+                                <img src="assets/image/profile.jpg" alt="">
+                            </div>
+                            <!-- profile contet -->
+                            <div class="profile_content">
+                                <h3 class="profile_content_name">Tania Apu</h3>
+                                <p class="profile_content_designation">Admin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+
+        <div class="admin_content">
+            <!-- pos top -->
+            <div class="pos_top">
+                <div class="pos_top_wrapper">
+                    <!-- left -->
+                    <div class="posTop_left">
+                        <!-- btn -->
+                        <div class="posTop_addcustomer_btn">
+                            <a href="./addCustomer.html">
+                                <!-- icon -->
+                                <span class="posTop_addcustomer_btnIcon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19">
+                                        <path id="Path_136" data-name="Path 136"
+                                            d="M14.893,8.786a6.107,6.107,0,1,1-6.107,6.107A6.107,6.107,0,0,1,14.893,8.786Zm0,2.714a.679.679,0,0,0-.679.679v2.036H12.179a.679.679,0,1,0,0,1.357h2.036v2.036a.679.679,0,1,0,1.357,0V15.571h2.036a.679.679,0,1,0,0-1.357H15.571V12.179A.679.679,0,0,0,14.893,11.5ZM9.135,10.143a7.479,7.479,0,0,0-1.425,6.785h-.2c-3.43,0-5.378-1.146-5.5-3.457L2,13.23V12.179a2.036,2.036,0,0,1,1.84-2.026l.2-.009ZM7.429,2A3.393,3.393,0,1,1,4.035,5.393,3.393,3.393,0,0,1,7.429,2Zm6.786,1.357a2.715,2.715,0,0,1,2.248,4.237,7.509,7.509,0,0,0-4.236.325,2.714,2.714,0,0,1,1.988-4.562Z"
+                                            transform="translate(-2 -2)" fill="#999" />
+                                    </svg>
+                                </span>
+                                <!-- text -->
+                                <span class="posTop_addcustomer_btnText">
+                                    Create customer
+                                </span>
+                            </a>
+                        </div>
+
+                        <!-- slect ware house -->
+                        <div class="select_wareHouse">
+                            <select class="input_control">
+                                <option value="" hidden selected>Select Warehouse</option>
+                                <option value="">Dhanmondi</option>
+                                <option value="">Mughda</option>
+                                <option value="">Motijheel</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <!-- search -->
+                    <div class="posTop_search">
+                        <!-- input -->
+                        <input type="text" class="search_input input_control" placeholder="Search Here" />
+                        <!-- icon -->
+                        <span class="search_input_icon"><svg xmlns="http://www.w3.org/2000/svg" width="16.625"
+                                height="17" viewBox="0 0 16.625 17">
+                                <g id="Iconly_Light-Outline_Search" data-name="Iconly/Light-Outline/Search"
+                                    transform="translate(-2 -2)">
+                                    <g id="Search" transform="translate(2 2)">
+                                        <path id="Combined-Shape"
+                                            d="M7.99,0a7.986,7.986,0,0,1,5.886,13.386l2.568,2.563a.615.615,0,0,1-.87.871l-2.6-2.592A7.988,7.988,0,1,1,7.99,0Zm0,1.231a6.759,6.759,0,1,0,6.758,6.758A6.766,6.766,0,0,0,7.99,1.231Z"
+                                            transform="translate(0 0)" fill="#FFF" fill-rule="evenodd" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- pos top end -->
+
+            <!-- pos body -->
+
+            <div class="pos_main">
+
+                <div class="pos_body_wrapper">
+
+                    <!-- post card container -->
+                    <div class="pos_cart_container" id="sidebar">
+                        <!-- cart section -->
+                        <div class="pos_cart">
+                            <div class="pos_cart_content">
+                                <!-- table -->
+                                <div class="pos_cart_table">
+                                    <table>
+                                        <!-- thead -->
+                                        <thead>
+                                            <th>Product</th>
+                                            <th>QTY</th>
+                                            <th class="posTable_align">Price</th>
+                                            <th class="posTable_align">Sub total</th>
+                                        </thead>
+
+                                        <!-- tbody -->
+                                        <tbody>
+
+                                            <!-- product single item -->
+                                            <tr>
+                                                <td class="pos_cart_mainColumn">
+                                                    <div class="cartItem_title_delete">
+                                                        <!-- delete btn -->
+                                                        <div class="cart_itemCheck">
+                                                            <input type="checkbox" name="" id="">
+                                                        </div>
+
+
+                                                        <!-- title -->
+                                                        <div class="cartItem_title">
+                                                            <p class="cartItem_titleName">Auimank Winter Coats Auimank
+                                                                Winter Coats</p>
+                                                        </div>
+                                                    </div>
+
+                                                </td>
+                                                <td class="cart_product_quantity_column">
+                                                    <div class="cart_product_quantity">
+                                                        <!-- btn -->
+                                                        <div class="cart_quantity_btn btnPrimary increement_quntity">
+                                                            <span>
+                                                                <i class="fa-solid fa-plus"></i>
+                                                            </span>
+                                                        </div>
+                                                        <!-- input -->
+
+                                                        <div class="cart_quantity_input">
+                                                            <input class="input_control quntity_input" type="number"
+                                                                value="0">
+                                                        </div>
+
+                                                        <!-- btn -->
+                                                        <div class="cart_quantity_btn btnMain decrement_quntity">
+                                                            <span>
+                                                                <i class="fa-solid fa-minus"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cart_product_price"><span
+                                                            class="product-price">500</span>/-</div>
+                                                </td>
+                                                <td>
+                                                    <div class="cart_product_subtotal"><span
+                                                            class="price-subtotal">0</span>/-</div>
+                                                </td>
+                                            </tr>
+
+                                            <!-- product single item -->
+                                            <tr>
+                                                <td class="pos_cart_mainColumn">
+                                                    <div class="cartItem_title_delete">
+                                                        <!-- delete btn -->
+                                                        <div class="cart_itemCheck">
+                                                            <input type="checkbox" name="" id="">
+                                                        </div>
+
+
+                                                        <!-- title -->
+                                                        <div class="cartItem_title">
+                                                            <p class="cartItem_titleName">Auimank Winter Coats Auimank
+                                                                Winter Coats</p>
+                                                        </div>
+                                                    </div>
+
+                                                </td>
+                                                <td class="cart_product_quantity_column">
+                                                    <div class="cart_product_quantity">
+                                                        <!-- btn -->
+                                                        <div class="cart_quantity_btn btnPrimary increement_quntity">
+                                                            <span>
+                                                                <i class="fa-solid fa-plus"></i>
+                                                            </span>
+                                                        </div>
+                                                        <!-- input -->
+
+                                                        <div class="cart_quantity_input">
+                                                            <input class="input_control quntity_input" type="number"
+                                                                value="0">
+                                                        </div>
+
+                                                        <!-- btn -->
+                                                        <div class="cart_quantity_btn btnMain decrement_quntity">
+                                                            <span>
+                                                                <i class="fa-solid fa-minus"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cart_product_price"><span
+                                                            class="product-price">2500</span>/-</div>
+                                                </td>
+                                                <td>
+                                                    <div class="cart_product_subtotal"><span
+                                                            class="price-subtotal">0</span>/-</div>
+                                                </td>
+                                            </tr>
+
+                                            <!-- product single item -->
+                                            <tr>
+                                                <td class="pos_cart_mainColumn">
+                                                    <div class="cartItem_title_delete">
+                                                        <!-- delete btn -->
+                                                        <div class="cart_itemCheck">
+                                                            <input type="checkbox" name="" id="">
+                                                        </div>
+
+
+                                                        <!-- title -->
+                                                        <div class="cartItem_title">
+                                                            <p class="cartItem_titleName">Auimank Winter Coats Auimank
+                                                                Winter Coats</p>
+                                                        </div>
+                                                    </div>
+
+                                                </td>
+                                                <td class="cart_product_quantity_column">
+                                                    <div class="cart_product_quantity">
+                                                        <!-- btn -->
+                                                        <div class="cart_quantity_btn btnPrimary increement_quntity">
+                                                            <span>
+                                                                <i class="fa-solid fa-plus"></i>
+                                                            </span>
+                                                        </div>
+                                                        <!-- input -->
+
+                                                        <div class="cart_quantity_input">
+                                                            <input class="input_control quntity_input" type="number"
+                                                                value="0">
+                                                        </div>
+
+                                                        <!-- btn -->
+                                                        <div class="cart_quantity_btn btnMain decrement_quntity">
+                                                            <span>
+                                                                <i class="fa-solid fa-minus"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cart_product_price"><span
+                                                            class="product-price">120</span>/-</div>
+                                                </td>
+                                                <td>
+                                                    <div class="cart_product_subtotal"><span
+                                                            class="price-subtotal">0</span>/-</div>
+                                                </td>
+                                            </tr>
+
+                                            <!-- product single item -->
+                                            <tr>
+                                                <td class="pos_cart_mainColumn">
+                                                    <div class="cartItem_title_delete">
+                                                        <!-- delete btn -->
+                                                        <div class="cart_itemCheck">
+                                                            <input type="checkbox" name="" id="">
+                                                        </div>
+
+
+                                                        <!-- title -->
+                                                        <div class="cartItem_title">
+                                                            <p class="cartItem_titleName">Auimank Winter Coats Auimank
+                                                                Winter Coats</p>
+                                                        </div>
+                                                    </div>
+
+                                                </td>
+                                                <td class="cart_product_quantity_column">
+                                                    <div class="cart_product_quantity">
+                                                        <!-- btn -->
+                                                        <div class="cart_quantity_btn btnPrimary increement_quntity">
+                                                            <span>
+                                                                <i class="fa-solid fa-plus"></i>
+                                                            </span>
+                                                        </div>
+                                                        <!-- input -->
+
+                                                        <div class="cart_quantity_input">
+                                                            <input class="input_control quntity_input" type="number"
+                                                                value="0">
+                                                        </div>
+
+                                                        <!-- btn -->
+                                                        <div class="cart_quantity_btn btnMain decrement_quntity">
+                                                            <span>
+                                                                <i class="fa-solid fa-minus"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cart_product_price"><span
+                                                            class="product-price">450</span>/-</div>
+                                                </td>
+                                                <td>
+                                                    <div class="cart_product_subtotal"><span
+                                                            class="price-subtotal">0</span>/-</div>
+                                                </td>
+                                            </tr>
+
+                                            <!-- product single item -->
+                                            <tr>
+                                                <td class="pos_cart_mainColumn">
+                                                    <div class="cartItem_title_delete">
+                                                        <!-- delete btn -->
+                                                        <div class="cart_itemCheck">
+                                                            <input type="checkbox" name="" id="">
+                                                        </div>
+
+
+                                                        <!-- title -->
+                                                        <div class="cartItem_title">
+                                                            <p class="cartItem_titleName">Auimank Winter Coats Auimank
+                                                                Winter Coats</p>
+                                                        </div>
+                                                    </div>
+
+                                                </td>
+                                                <td class="cart_product_quantity_column">
+                                                    <div class="cart_product_quantity">
+                                                        <!-- btn -->
+                                                        <div class="cart_quantity_btn btnPrimary increement_quntity">
+                                                            <span>
+                                                                <i class="fa-solid fa-plus"></i>
+                                                            </span>
+                                                        </div>
+                                                        <!-- input -->
+
+                                                        <div class="cart_quantity_input">
+                                                            <input class="input_control quntity_input" type="number"
+                                                                value="0">
+                                                        </div>
+
+                                                        <!-- btn -->
+                                                        <div class="cart_quantity_btn btnMain decrement_quntity">
+                                                            <span>
+                                                                <i class="fa-solid fa-minus"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="cart_product_price"><span
+                                                            class="product-price">700</span>/-</div>
+                                                </td>
+                                                <td>
+                                                    <div class="cart_product_subtotal"><span
+                                                            class="price-subtotal">0</span>/-</div>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </div>
+
+                                <!-- pos cart price -->
+                                <div class="cart_price_table">
+                                    <!-- wrapper -->
+                                    <div class="cart_price_table_wrapper">
+                                        <!-- vat -->
+                                        <div class="cart_price_table_vat">
+
+                                            <!-- input -->
+                                            <div class="cart_price_vat_inputInner">
+                                                <input type="text" id="cartTax"
+                                                    class="input_control form_input vatInput" placeholder="Tax">
+                                            </div>
+
+                                            <!-- input -->
+                                            <div class="cart_price_vat_inputInner">
+                                                <input type="text" id="cartDiscount"
+                                                    class="input_control form_input vatInput" placeholder="Discount">
+                                            </div>
+
+                                            <!-- input -->
+                                            <div class="cart_price_vat_inputInner">
+                                                <input type="text" id="cartShipping"
+                                                    class="input_control form_input vatInput" placeholder="Shipping">
+                                            </div>
+
+                                        </div>
+
+                                        <!-- cart total -->
+                                        <div class="cart_total">
+                                            <ul class="cart_total_list">
+                                                <li>
+                                                    <span class="cart_total_heading">Total QTY :</span>
+                                                    <span class="cart_total_balance" id="totalQTY">5</span>
+                                                </li>
+                                                <li>
+                                                    <span class="cart_total_heading">Sub Total :</span>
+                                                    <span class="cart_total_balance" id="cartSubTotal">0</span>
+                                                </li>
+                                                <li class="total_main">
+                                                    <span class="cart_total_heading">Total</span>
+                                                    <span class="cart_total_balance" id="cartTotalPrice">0</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <!-- card all btn -->
+                                <div class="cart_allBtn">
+                                    <div class="addproduct_btn_wrapper">
+                                        <!-- btn -->
+                                        <div class="global_btn_inner">
+                                            <button class="btn global_btn secondary" type="submit">Pending</button>
+                                        </div>
+                                        <!-- btn -->
+                                        <div class="global_btn_inner">
+                                            <button class="btn global_btn primary" type="submit">Delete</button>
+                                        </div>
+                                        <!-- btn -->
+                                        <div class="global_btn_inner">
+                                            <button class="btn global_btn main" type="submit">Pay now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- pos body -->
+                    <div class="pos_body">
+                        <!-- pos category btn -->
+                        <div class="pos_categoryBtn_wrapper">
+                            <!-- btn -->
+                            <div class="pos_categoryBtn">
+                                <a href="#">All Category</a>
+                            </div>
+
+                            <!-- btn -->
+                            <div class="pos_categoryBtn">
+                                <a href="#">Tv Accessories</a>
+                            </div>
+
+                            <!-- btn -->
+                            <div class="pos_categoryBtn">
+                                <a href="#">Media & Sound</a>
+                            </div>
+                            <!-- btn -->
+                            <div class="pos_categoryBtn">
+                                <a href="#">Laptop & Desktop</a>
+                            </div>
+
+                            <!-- btn -->
+                            <div class="pos_categoryBtn">
+                                <a href="#">Tv Accessories</a>
+                            </div>
+
+                            <!-- btn -->
+                            <div class="pos_categoryBtn">
+                                <a href="#">Media & Sound</a>
+                            </div>
+
+                            <!-- btn -->
+                            <div class="pos_categoryBtn">
+                                <a href="#">Grocery</a>
+                            </div>
+
+                            <!-- btn -->
+                            <div class="pos_categoryBtn">
+                                <a href="#">Laptop & Desktop</a>
+                            </div>
+
+                            <!-- btn -->
+                            <div class="pos_categoryBtn">
+                                <a href="#">Tv Accessories</a>
+                            </div>
+
+                            <!-- btn -->
+                            <div class="pos_categoryBtn">
+                                <a href="#">Media & Sound</a>
+                            </div>
+                            <!-- btn -->
+                            <div class="pos_categoryBtn">
+                                <a href="#">Laptop & Desktop</a>
+                            </div>
+
+                            <!-- btn -->
+                            <div class="pos_categoryBtn">
+                                <a href="#">Tv Accessories</a>
+                            </div>
+
+                            <!-- btn -->
+                            <div class="pos_categoryBtn">
+                                <a href="#">Media & Sound</a>
+                            </div>
+
+
+                        </div>
+
+                        <!-- pos product  -->
+                        <div class="pos_product">
+                            <div class="pos_product_wrapper">
+
+                                <!-- item -->
+                                <a href="" class="pos_product_item">
+                                    <!-- thumbnail -->
+                                    <div class="product_item_thumbnail">
+                                        <img src="assets/image/product/Image1 (1).png" alt="">
+                                    </div>
+                                    <!-- pos_product_content -->
+                                    <div class="product_item_content">
+                                        <!-- name -->
+                                        <div class="product_item_nameInner">
+                                            <p class="product_item_name">Auimank Winter Coats Auimank</p>
+                                        </div>
+                                        <!-- price -->
+                                        <div class="product_item_priceIner">
+                                            <p class="product_item_price"><span>556</span>/-</p>
+                                        </div>
+                                    </div>
+                                    <!-- btn -->
+                                    <div class="product_item_btn ">
+                                        <button type="button" class="btn">
+                                            <span class="product_itemBtn_plus"><i class="fa-solid fa-plus"></i></span>
+                                            <span class="product_itemBtn_minus"><i class="fa-solid fa-minus"></i></span>
+                                        </button>
+                                    </div>
+                                </a>
+                                <!-- item -->
+                                <a href="" class="pos_product_item">
+                                    <!-- thumbnail -->
+                                    <div class="product_item_thumbnail">
+                                        <img src="assets/image/product/Image1 (2).png" alt="">
+                                    </div>
+                                    <!-- pos_product_content -->
+                                    <div class="product_item_content">
+                                        <!-- name -->
+                                        <div class="product_item_nameInner">
+                                            <p class="product_item_name">Auimank Winter Coats Auimank</p>
+                                        </div>
+                                        <!-- price -->
+                                        <div class="product_item_priceIner">
+                                            <p class="product_item_price"><span>556</span>/-</p>
+                                        </div>
+                                    </div>
+                                    <!-- btn -->
+                                    <div class="product_item_btn ">
+                                        <button type="button" class="btn">
+                                            <span class="product_itemBtn_plus"><i class="fa-solid fa-plus"></i></span>
+                                            <span class="product_itemBtn_minus"><i class="fa-solid fa-minus"></i></span>
+                                        </button>
+                                    </div>
+                                </a>
+
+                                <!-- item -->
+                                <a href="" class="pos_product_item">
+                                    <!-- thumbnail -->
+                                    <div class="product_item_thumbnail">
+                                        <img src="assets/image/product/Image1 (3).png" alt="">
+                                    </div>
+                                    <!-- pos_product_content -->
+                                    <div class="product_item_content">
+                                        <!-- name -->
+                                        <div class="product_item_nameInner">
+                                            <p class="product_item_name">Auimank Winter Coats Auimank</p>
+                                        </div>
+                                        <!-- price -->
+                                        <div class="product_item_priceIner">
+                                            <p class="product_item_price"><span>556</span>/-</p>
+                                        </div>
+                                    </div>
+                                    <!-- btn -->
+                                    <div class="product_item_btn ">
+                                        <button type="button" class="btn">
+                                            <span class="product_itemBtn_plus"><i class="fa-solid fa-plus"></i></span>
+                                            <span class="product_itemBtn_minus"><i class="fa-solid fa-minus"></i></span>
+                                        </button>
+                                    </div>
+                                </a>
+
+                                <!-- item -->
+                                <a href="" class="pos_product_item">
+                                    <!-- thumbnail -->
+                                    <div class="product_item_thumbnail">
+                                        <img src="assets/image/product/Image1.png" alt="">
+                                    </div>
+                                    <!-- pos_product_content -->
+                                    <div class="product_item_content">
+                                        <!-- name -->
+                                        <div class="product_item_nameInner">
+                                            <p class="product_item_name">Auimank Winter Coats Auimank</p>
+                                        </div>
+                                        <!-- price -->
+                                        <div class="product_item_priceIner">
+                                            <p class="product_item_price"><span>556</span>/-</p>
+                                        </div>
+                                    </div>
+                                    <!-- btn -->
+                                    <div class="product_item_btn ">
+                                        <button type="button" class="btn">
+                                            <span class="product_itemBtn_plus"><i class="fa-solid fa-plus"></i></span>
+                                            <span class="product_itemBtn_minus"><i class="fa-solid fa-minus"></i></span>
+                                        </button>
+                                    </div>
+                                </a>
+
+                                <!-- item -->
+                                <a href="" class="pos_product_item">
+                                    <!-- thumbnail -->
+                                    <div class="product_item_thumbnail">
+                                        <img src="assets/image/product/Image2 (1).png" alt="">
+                                    </div>
+                                    <!-- pos_product_content -->
+                                    <div class="product_item_content">
+                                        <!-- name -->
+                                        <div class="product_item_nameInner">
+                                            <p class="product_item_name">Auimank Winter Coats Auimank</p>
+                                        </div>
+                                        <!-- price -->
+                                        <div class="product_item_priceIner">
+                                            <p class="product_item_price"><span>556</span>/-</p>
+                                        </div>
+                                    </div>
+                                    <!-- btn -->
+                                    <div class="product_item_btn ">
+                                        <button type="button" class="btn">
+                                            <span class="product_itemBtn_plus"><i class="fa-solid fa-plus"></i></span>
+                                            <span class="product_itemBtn_minus"><i class="fa-solid fa-minus"></i></span>
+                                        </button>
+                                    </div>
+                                </a>
+
+                                <!-- item -->
+                                <a href="" class="pos_product_item">
+                                    <!-- thumbnail -->
+                                    <div class="product_item_thumbnail">
+                                        <img src="assets/image/product/Image2 (2).png" alt="">
+                                    </div>
+                                    <!-- pos_product_content -->
+                                    <div class="product_item_content">
+                                        <!-- name -->
+                                        <div class="product_item_nameInner">
+                                            <p class="product_item_name">Auimank Winter Coats Auimank</p>
+                                        </div>
+                                        <!-- price -->
+                                        <div class="product_item_priceIner">
+                                            <p class="product_item_price"><span>556</span>/-</p>
+                                        </div>
+                                    </div>
+                                    <!-- btn -->
+                                    <div class="product_item_btn ">
+                                        <button type="button" class="btn">
+                                            <span class="product_itemBtn_plus"><i class="fa-solid fa-plus"></i></span>
+                                            <span class="product_itemBtn_minus"><i class="fa-solid fa-minus"></i></span>
+                                        </button>
+                                    </div>
+                                </a>
+
+                                <!-- item -->
+                                <a href="" class="pos_product_item">
+                                    <!-- thumbnail -->
+                                    <div class="product_item_thumbnail">
+                                        <img src="assets/image/product/Image2.png" alt="">
+                                    </div>
+                                    <!-- pos_product_content -->
+                                    <div class="product_item_content">
+                                        <!-- name -->
+                                        <div class="product_item_nameInner">
+                                            <p class="product_item_name">Auimank Winter Coats Auimank</p>
+                                        </div>
+                                        <!-- price -->
+                                        <div class="product_item_priceIner">
+                                            <p class="product_item_price"><span>556</span>/-</p>
+                                        </div>
+                                    </div>
+                                    <!-- btn -->
+                                    <div class="product_item_btn ">
+                                        <button type="button" class="btn">
+                                            <span class="product_itemBtn_plus"><i class="fa-solid fa-plus"></i></span>
+                                            <span class="product_itemBtn_minus"><i class="fa-solid fa-minus"></i></span>
+                                        </button>
+                                    </div>
+                                </a>
+
+                                <!-- item -->
+                                <a href="" class="pos_product_item">
+                                    <!-- thumbnail -->
+                                    <div class="product_item_thumbnail">
+                                        <img src="assets/image/product/Image3 (1).png" alt="">
+                                    </div>
+                                    <!-- pos_product_content -->
+                                    <div class="product_item_content">
+                                        <!-- name -->
+                                        <div class="product_item_nameInner">
+                                            <p class="product_item_name">Auimank Winter Coats Auimank</p>
+                                        </div>
+                                        <!-- price -->
+                                        <div class="product_item_priceIner">
+                                            <p class="product_item_price"><span>556</span>/-</p>
+                                        </div>
+                                    </div>
+                                    <!-- btn -->
+                                    <div class="product_item_btn ">
+                                        <button type="button" class="btn">
+                                            <span class="product_itemBtn_plus"><i class="fa-solid fa-plus"></i></span>
+                                            <span class="product_itemBtn_minus"><i class="fa-solid fa-minus"></i></span>
+                                        </button>
+                                    </div>
+                                </a>
+
+                                <!-- item -->
+                                <a href="" class="pos_product_item">
+                                    <!-- thumbnail -->
+                                    <div class="product_item_thumbnail">
+                                        <img src="assets/image/product/Image3 (2).png" alt="">
+                                    </div>
+                                    <!-- pos_product_content -->
+                                    <div class="product_item_content">
+                                        <!-- name -->
+                                        <div class="product_item_nameInner">
+                                            <p class="product_item_name">Auimank Winter Coats Auimank</p>
+                                        </div>
+                                        <!-- price -->
+                                        <div class="product_item_priceIner">
+                                            <p class="product_item_price"><span>556</span>/-</p>
+                                        </div>
+                                    </div>
+                                    <!-- btn -->
+                                    <div class="product_item_btn ">
+                                        <button type="button" class="btn">
+                                            <span class="product_itemBtn_plus"><i class="fa-solid fa-plus"></i></span>
+                                            <span class="product_itemBtn_minus"><i class="fa-solid fa-minus"></i></span>
+                                        </button>
+                                    </div>
+                                </a>
+
+                                <!-- item -->
+                                <a href="" class="pos_product_item">
+                                    <!-- thumbnail -->
+                                    <div class="product_item_thumbnail">
+                                        <img src="assets/image/product/Image3 (3).png" alt="">
+                                    </div>
+                                    <!-- pos_product_content -->
+                                    <div class="product_item_content">
+                                        <!-- name -->
+                                        <div class="product_item_nameInner">
+                                            <p class="product_item_name">Auimank Winter Coats Auimank</p>
+                                        </div>
+                                        <!-- price -->
+                                        <div class="product_item_priceIner">
+                                            <p class="product_item_price"><span>556</span>/-</p>
+                                        </div>
+                                    </div>
+                                    <!-- btn -->
+                                    <div class="product_item_btn ">
+                                        <button type="button" class="btn">
+                                            <span class="product_itemBtn_plus"><i class="fa-solid fa-plus"></i></span>
+                                            <span class="product_itemBtn_minus"><i class="fa-solid fa-minus"></i></span>
+                                        </button>
+                                    </div>
+                                </a>
+
+                                <!-- item -->
+                                <a href="" class="pos_product_item">
+                                    <!-- thumbnail -->
+                                    <div class="product_item_thumbnail">
+                                        <img src="assets/image/product/Image3.png" alt="">
+                                    </div>
+                                    <!-- pos_product_content -->
+                                    <div class="product_item_content">
+                                        <!-- name -->
+                                        <div class="product_item_nameInner">
+                                            <p class="product_item_name">Auimank Winter Coats Auimank</p>
+                                        </div>
+                                        <!-- price -->
+                                        <div class="product_item_priceIner">
+                                            <p class="product_item_price"><span>556</span>/-</p>
+                                        </div>
+                                    </div>
+                                    <!-- btn -->
+                                    <div class="product_item_btn ">
+                                        <button type="button" class="btn">
+                                            <span class="product_itemBtn_plus"><i class="fa-solid fa-plus"></i></span>
+                                            <span class="product_itemBtn_minus"><i class="fa-solid fa-minus"></i></span>
+                                        </button>
+                                    </div>
+                                </a>
+
+                                <!-- item -->
+                                <a href="" class="pos_product_item">
+                                    <!-- thumbnail -->
+                                    <div class="product_item_thumbnail">
+                                        <img src="assets/image/product/Image4 (1).png" alt="">
+                                    </div>
+                                    <!-- pos_product_content -->
+                                    <div class="product_item_content">
+                                        <!-- name -->
+                                        <div class="product_item_nameInner">
+                                            <p class="product_item_name">Auimank Winter Coats Auimank</p>
+                                        </div>
+                                        <!-- price -->
+                                        <div class="product_item_priceIner">
+                                            <p class="product_item_price"><span>556</span>/-</p>
+                                        </div>
+                                    </div>
+                                    <!-- btn -->
+                                    <div class="product_item_btn ">
+                                        <button type="button" class="btn">
+                                            <span class="product_itemBtn_plus"><i class="fa-solid fa-plus"></i></span>
+                                            <span class="product_itemBtn_minus"><i class="fa-solid fa-minus"></i></span>
+                                        </button>
+                                    </div>
+                                </a>
+
+                                <!-- item -->
+                                <a href="" class="pos_product_item">
+                                    <!-- thumbnail -->
+                                    <div class="product_item_thumbnail">
+                                        <img src="assets/image/product/Image4 (2).png" alt="">
+                                    </div>
+                                    <!-- pos_product_content -->
+                                    <div class="product_item_content">
+                                        <!-- name -->
+                                        <div class="product_item_nameInner">
+                                            <p class="product_item_name">Auimank Winter Coats Auimank</p>
+                                        </div>
+                                        <!-- price -->
+                                        <div class="product_item_priceIner">
+                                            <p class="product_item_price"><span>556</span>/-</p>
+                                        </div>
+                                    </div>
+                                    <!-- btn -->
+                                    <div class="product_item_btn ">
+                                        <button type="button" class="btn">
+                                            <span class="product_itemBtn_plus"><i class="fa-solid fa-plus"></i></span>
+                                            <span class="product_itemBtn_minus"><i class="fa-solid fa-minus"></i></span>
+                                        </button>
+                                    </div>
+                                </a>
+
+                                <!-- item -->
+                                <a href="" class="pos_product_item">
+                                    <!-- thumbnail -->
+                                    <div class="product_item_thumbnail">
+                                        <img src="assets/image/product/Image4.png" alt="">
+                                    </div>
+                                    <!-- pos_product_content -->
+                                    <div class="product_item_content">
+                                        <!-- name -->
+                                        <div class="product_item_nameInner">
+                                            <p class="product_item_name">Auimank Winter Coats Auimank</p>
+                                        </div>
+                                        <!-- price -->
+                                        <div class="product_item_priceIner">
+                                            <p class="product_item_price"><span>556</span>/-</p>
+                                        </div>
+                                    </div>
+                                    <!-- btn -->
+                                    <div class="product_item_btn ">
+                                        <button type="button" class="btn">
+                                            <span class="product_itemBtn_plus"><i class="fa-solid fa-plus"></i></span>
+                                            <span class="product_itemBtn_minus"><i class="fa-solid fa-minus"></i></span>
+                                        </button>
+                                    </div>
+                                </a>
+
+                                <!-- item -->
+                                <a href="" class="pos_product_item">
+                                    <!-- thumbnail -->
+                                    <div class="product_item_thumbnail">
+                                        <img src="assets/image/product/Image5 (1).png" alt="">
+                                    </div>
+                                    <!-- pos_product_content -->
+                                    <div class="product_item_content">
+                                        <!-- name -->
+                                        <div class="product_item_nameInner">
+                                            <p class="product_item_name">Auimank Winter Coats Auimank</p>
+                                        </div>
+                                        <!-- price -->
+                                        <div class="product_item_priceIner">
+                                            <p class="product_item_price"><span>556</span>/-</p>
+                                        </div>
+                                    </div>
+                                    <!-- btn -->
+                                    <div class="product_item_btn ">
+                                        <button type="button" class="btn">
+                                            <span class="product_itemBtn_plus"><i class="fa-solid fa-plus"></i></span>
+                                            <span class="product_itemBtn_minus"><i class="fa-solid fa-minus"></i></span>
+                                        </button>
+                                    </div>
+                                </a>
+
+                                <!-- item -->
+                                <a href="" class="pos_product_item">
+                                    <!-- thumbnail -->
+                                    <div class="product_item_thumbnail">
+                                        <img src="assets/image/product/Image5 (2).png" alt="">
+                                    </div>
+                                    <!-- pos_product_content -->
+                                    <div class="product_item_content">
+                                        <!-- name -->
+                                        <div class="product_item_nameInner">
+                                            <p class="product_item_name">Auimank Winter Coats Auimank</p>
+                                        </div>
+                                        <!-- price -->
+                                        <div class="product_item_priceIner">
+                                            <p class="product_item_price"><span>556</span>/-</p>
+                                        </div>
+                                    </div>
+                                    <!-- btn -->
+                                    <div class="product_item_btn ">
+                                        <button type="button" class="btn">
+                                            <span class="product_itemBtn_plus"><i class="fa-solid fa-plus"></i></span>
+                                            <span class="product_itemBtn_minus"><i class="fa-solid fa-minus"></i></span>
+                                        </button>
+                                    </div>
+                                </a>
+
+                                <!-- item -->
+                                <a href="" class="pos_product_item">
+                                    <!-- thumbnail -->
+                                    <div class="product_item_thumbnail">
+                                        <img src="assets/image/product/Image5.png" alt="">
+                                    </div>
+                                    <!-- pos_product_content -->
+                                    <div class="product_item_content">
+                                        <!-- name -->
+                                        <div class="product_item_nameInner">
+                                            <p class="product_item_name">Auimank Winter Coats Auimank</p>
+                                        </div>
+                                        <!-- price -->
+                                        <div class="product_item_priceIner">
+                                            <p class="product_item_price"><span>556</span>/-</p>
+                                        </div>
+                                    </div>
+                                    <!-- btn -->
+                                    <div class="product_item_btn ">
+                                        <button type="button" class="btn">
+                                            <span class="product_itemBtn_plus"><i class="fa-solid fa-plus"></i></span>
+                                            <span class="product_itemBtn_minus"><i class="fa-solid fa-minus"></i></span>
+                                        </button>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- toggle btn -->
+
+                    <div class="cartToggle_btn" id="header_toggle">
+                        <span class="cartToggle_btn_icon">
+                            <svg id="Group_243" data-name="Group 243" xmlns="http://www.w3.org/2000/svg" width="30"
+                                height="30" viewBox="0 0 55.521 56">
+                                <path id="Path_168" data-name="Path 168"
+                                    d="M19.5,35.384H39.872a8.262,8.262,0,0,0,7.986-6.379l3.246-13.2A8.294,8.294,0,0,0,42.989,5.55H16.206A8.294,8.294,0,0,0,8.091,15.809l3.246,13.229A8.278,8.278,0,0,0,19.5,35.384ZM43.086,9.608a4.253,4.253,0,0,1,4.123,5.243L43.963,28.08a4.22,4.22,0,0,1-4.123,3.246H19.5a4.22,4.22,0,0,1-4.123-3.246L12.132,14.851a4.237,4.237,0,0,1,4.123-5.243Z"
+                                    transform="translate(-7.855 3.053)" fill="#fff" />
+                                <path id="Path_169" data-name="Path 169"
+                                    d="M38.536,22.569A2.029,2.029,0,0,0,40.5,20.946L43.405,8.333a5.21,5.21,0,0,1,5.1-4.026h2.646a2.029,2.029,0,0,0,0-4.058H48.5a9.268,9.268,0,0,0-9.057,7.158L36.556,20.02a2.013,2.013,0,0,0,1.51,2.435A2.321,2.321,0,0,0,38.536,22.569ZM29.365,56.25a6.493,6.493,0,1,0-6.493-6.493A6.493,6.493,0,0,0,29.365,56.25Zm0-8.992A2.467,2.467,0,1,1,26.9,49.725a2.467,2.467,0,0,1,2.467-2.467ZM6.933,56.25A6.493,6.493,0,1,0,.44,49.757,6.493,6.493,0,0,0,6.933,56.25Zm0-8.992a2.467,2.467,0,1,1-1.755.717,2.467,2.467,0,0,1,1.755-.717Z"
+                                    transform="translate(2.344 -0.25)" fill="#fff" />
+                                <path id="Path_170" data-name="Path 170"
+                                    d="M10.409,34.058H37.451a6.314,6.314,0,0,0,0-12.628h-4.3a2.029,2.029,0,0,0,0,4.058h4.3a2.256,2.256,0,0,1,0,4.512H10.409a2.029,2.029,0,0,0,0,4.058Z"
+                                    transform="translate(-1.132 12.949)" fill="#fff" />
+                            </svg>
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- pos body end -->
+        </div>
+
+    </div>
+    <!-- 
+    ================================
+        main admin sidebar
+    ================================
+    -->
+
+    <!-- js link -->
+    <script src="assets/js/pos.js"></script>
+    <script src="assets/js/apps.js"></script>
+</body>
+
+</html>

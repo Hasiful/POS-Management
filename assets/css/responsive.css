@@ -1,0 +1,487 @@
+@media(min-width: 540px) {
+    .header_title {
+        font-size: 20px;
+    }
+
+    .entry_input_inner {
+        height: 56px;
+        width: calc(50% - 8px);
+    }
+
+    .form_delete_btn_wrapper {
+        height: 56px;
+    }
+
+    .product_input_inner {
+        height: 56px;
+    }
+
+    .adproduct_mainform_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product_input_innerfile {
+        grid-column: span 2;
+    }
+
+    .product_input_textaera {
+        grid-column: span 2;
+        height: 150px !important;
+    }
+
+    .global_btn {
+        height: 56px;
+        width: 124px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .addproduct_btn_wrapper {
+        gap: 16px;
+    }
+
+    .staff_permision_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .reportTab_btnWrapper {
+        justify-content: flex-start;
+    }
+
+    .posTop_left {
+        flex-direction: row;
+    }
+
+    .pos_product_wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .pos_cart {
+        width: 500px;
+    }
+
+    .pos_categoryBtn a {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 15px 32px;
+    }
+
+    .cart_allBtn {
+        padding: 0px 20px 30px 20px;
+    }
+}
+
+@media(min-width: 768px) {
+    .admin_card_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .admin_card:nth-child(3) {
+        grid-column: span 2;
+    }
+
+    .card_header_title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .card_header_purches ul {
+        gap: 30px;
+    }
+
+    .card_header_purches ul li {
+        gap: 15px;
+    }
+
+    .card_header_mark {
+        height: 22px;
+        width: 22px;
+    }
+
+    .card_header_mark_title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .add_product_header_product,
+    .add_product_header_price {
+        font-size: 18px;
+    }
+
+    .payment_history_account,
+    .payment_history_balance {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .payment_history_banking,
+    .payment_history_ammunt {
+        font-size: 18px;
+    }
+
+    .payment_history_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .expreid_product_table_content table tr th {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .expreid_product_table_content table tr td {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .left_heading_printBtn {
+        height: 40px;
+        width: 40px;
+    }
+
+    .main_btn button {
+        font-size: 16px;
+        padding: 11px 20px;
+    }
+
+    .header_clander_inner {
+        width: auto;
+    }
+
+    .header_clander_input {
+        height: 40px !important;
+    }
+
+    .admin_topheading_left,
+    .header_clander_wrapper {
+        gap: 16px;
+    }
+
+    .forbid_title {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .popup_input_inner {
+        height: 56px;
+    }
+
+    .popup_form_heading {
+        font-size: 36px;
+    }
+
+    .popup_transection_id {
+        font-size: 22px;
+    }
+
+    .staff_permision_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .reportcard_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .smsform_input_wrapper {
+        flex-direction: row;
+    }
+
+
+    .userForm_wrapper {
+        flex-direction: row;
+    }
+
+    .userform_input_inner {
+        height: 56px;
+    }
+
+    .userform_item_contain {
+        flex-direction: row;
+    }
+
+    .userForm_wrapper {
+        align-items: flex-start;
+    }
+
+    .userForm_nav_item {
+        padding: 11px 35px;
+        font-size: 18px;
+    }
+
+    .userForm_nav {
+        padding: 11px 20px;
+    }
+
+    .login_page_wrapper {
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+
+    .login_page {
+        padding: 100px 20px;
+    }
+
+    .addnew_form {
+        padding: 40px 60px;
+    }
+
+    .addnew_form_title h1 {
+        font-size: 28px;
+    }
+
+    .support_sidebar_content {
+        padding: 34px;
+    }
+
+    .support_chatBox_title h3 {
+        font-size: 36px;
+    }
+
+    .chatInner_item_title {
+        font-size: 24px;
+    }
+
+    .chatInner_item_text {
+        font-size: 18px;
+    }
+
+    .pos_product_wrapper {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .pos_cart {
+        width: 720px;
+    }
+
+}
+
+@media(min-width: 1024px) {
+    .sidebar {
+        left: 0px;
+        margin-top: 0px;
+    }
+
+    .admin_main {
+        width: calc(100% - 260px);
+        margin-left: 260px;
+    }
+
+    .header_section {
+        width: calc(100% - 260px);
+    }
+
+    .admin_content {
+        margin-top: 76px;
+    }
+
+    .header_toggle {
+        display: none;
+    }
+
+    .header_leftRe {
+        display: flex;
+    }
+
+    .report_card_title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .report_card_icon {
+        height: 46px;
+        width: 46px;
+    }
+
+    .report_card_icon svg {
+        width: 28px;
+        height: 30px;
+    }
+
+    .report_card_countText {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .smsform_form {
+        padding: 20px 50px;
+    }
+
+    .pos_product_wrapper {
+        grid-template-columns: repeat(7, 1fr);
+    }
+
+    .pos_cart_container {
+        top: 76px;
+    }
+
+}
+
+@media(min-width: 1200px) {
+    .header_title {
+        font-size: 24px;
+    }
+
+    .header_left_inner {
+        gap: 25px;
+    }
+
+    .admin_card_wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+
+    .admin_card:nth-child(3) {
+        grid-column: span 1;
+    }
+
+    .product_add_salse {
+        flex-direction: row;
+    }
+
+    .card_item_pusrches {
+        width: calc(62% - 8px);
+    }
+
+    .card_item_Addlist {
+        width: calc(38% - 8px);
+    }
+
+    .expreid_product_table_content table tr th {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .expreid_product_table_content table tr td {
+        font-size: 18px;
+    }
+
+    .header_section_wrapper {
+        gap: 30px;
+    }
+
+    .header_title span {
+        display: inline;
+    }
+
+    .breadcamp {
+        display: block;
+    }
+
+    .breadcamp_target,
+    .breadcamp_current {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .admin_topheading_left {
+        justify-content: flex-end;
+        width: auto;
+    }
+
+    .entry_input_inner {
+        height: 56px;
+        width: calc(20% - 28px);
+    }
+
+    .form_delete_btn_wrapper {
+        width: 56px;
+    }
+
+    .adproduct_mainform_wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .product_input_textaera {
+        grid-column: span 4;
+        height: 200px !important;
+    }
+
+    .reportcard_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .login_page {
+        padding: 200px 20px;
+    }
+
+    .support_wrapper {
+        flex-direction: row;
+    }
+
+    .support_sidebar {
+        width: 30%;
+    }
+
+    .support_chatBox {
+        width: 69%;
+    }
+
+    .chatInner_item_image {
+        width: 70px;
+        height: 70px;
+    }
+
+    .chatInner_item_content {
+        width: calc(100% - 70px);
+    }
+
+    .support_chatBox_content {
+        padding: 40px 34px;
+    }
+
+    .pos_top_wrapper {
+        flex-direction: row;
+    }
+
+    .posTop_left {
+        width: 35%;
+    }
+
+    .posTop_search {
+        width: calc(100% - 36%);
+    }
+
+    .pos_cart_container {
+        width: 35%;
+        position: unset;
+        border-radius: 18px;
+        border: 1px solid #DCDCDC;
+        overflow: hidden;
+        background-color: #FFFFFF;
+        transition: var(--transition);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .pos_cart {
+        width: 100%;
+        position: unset;
+    }
+
+    .pos_body {
+        width: calc(100% - 36%);
+    }
+
+    .pos_product_wrapper {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .cartToggle_btn {
+        display: none;
+    }
+}
+
+@media(min-width: 1400px) {
+    .staff_permision_wrapper {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .reportcard_wrapper {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .pos_product_wrapper {
+        grid-template-columns: repeat(7, 1fr);
+    }
+}
